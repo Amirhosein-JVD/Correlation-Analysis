@@ -7,13 +7,23 @@ print("Current working directory:", os.getcwd())
 
 
 def main():
-        
+    
+    # Preparing folders
+    preparing_folders()
+    
     # Reading data
     mainData = pd.read_csv("../Data/KIRC.csv")
     
     # Getting the threshold as input.
     threshold = ask_threshold()
     calculate_degree_of_genes_and_network_matrix(mainData, threshold)
+    
+def preparing_folders():
+    """Preparing folders for saving results
+    """
+    for folder in ["Not_Sorted_Degree", "Sorted_Degree", "Zero_One_Matrices"]:
+        if not os.path.isdir(folder):
+            os.makedirs(folder)
 
 def ask_threshold():
     try:
