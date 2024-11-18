@@ -19,7 +19,7 @@ def ask_threshold():
     try:
         threshold = float(input("Please enter a threshold for the correlation values: "))
         if threshold < -1 or threshold > 1:
-            raise ValueError
+            raise ValueError("You must enter number between -1 and 1.")
         return threshold
         
     except(ValueError):
@@ -47,7 +47,7 @@ def calculate_degree_of_genes_and_network_matrix(mainData:pd.DataFrame, threshol
         data = pd.read_csv(f"../Correlation_Calculation/{method[:-4]}Method/{method}")
 
         # Convert all elements grater than threshold to 1 and otherwise 0
-        data = pd.DataFrame((abs(data) > ask_threshold()))
+        data = pd.DataFrame((abs(data) > threshold))
 
         # Change titles
         data.columns = buffer.iloc[:, 0]
