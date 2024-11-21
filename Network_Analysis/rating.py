@@ -15,7 +15,7 @@ def main():
             rating(METHODS[h], METHODS[j], 100)
 
 def rater(arr):
-    """The selected percentage of the available genes.
+    """This function takes a list as input and assigns ranks to its elements.
 
     Args:
         arr (List): A list.
@@ -30,6 +30,8 @@ def rater(arr):
             rate = count
         count += 1
         rate_result.append(rate)
+        
+    return(rate_result)
  
     
 def rating(method1:str, method2:str, percent:float):
@@ -49,8 +51,8 @@ def rating(method1:str, method2:str, percent:float):
     data2 = pd.read_csv(f"../Network_Analysis/Sorted_Degree/{method2}Sorted.csv")
 
     # Based on the percentage provided as input in the function, we select the genes.
-    data1 = pd.DataFrame(data1.iloc[:int(data1.shape[1] * (percent / 100)), :])
-    data2 = pd.DataFrame(data2.iloc[:int(data1.shape[1] * (percent / 100)), :])
+    data1 = pd.DataFrame(data1.iloc[:int(data1.shape[0] * (percent / 100)), :])
+    data2 = pd.DataFrame(data2.iloc[:int(data1.shape[0] * (percent / 100)), :])
 
     # Finding intersect of hubs that exist in data of method 1 and method 2
     intersect = [i for i in data1.iloc[:, 0].tolist() if i in data2.iloc[:, 0].tolist()]
@@ -85,11 +87,11 @@ def rating(method1:str, method2:str, percent:float):
 
     # Adding "rate of method 1" column to method1_sorted
     degree_method1 = method1_sorted[f"{method1} degree"].tolist()
-    method1_sorted[f"rate {method1}"] = rater(degree_method1)
+    method1_sorted[f"{method1} rate"] = rater(degree_method1)
 
     # Adding "rate of method 2" column to method2_sorted
     degree_method2 = method2_sorted[f"{method2} degree"].tolist()
-    method2_sorted[f"rate {method2}"] = rater(degree_method2)
+    method2_sorted[f"{method2} rate"] = rater(degree_method2)
 
     # Saving name of genes as list
     genes_name = result.iloc[:, 0].tolist()
@@ -117,7 +119,7 @@ def rating(method1:str, method2:str, percent:float):
     result["Total rate"] = total_rate
 
     # Sort data based on total rate
-    result = result.sort_values(by="Total rate1")
+    result = result.sort_values(by="Total rate")
     
     # Reset indexes for sorting
     result.reset_index(drop=True, inplace=True)

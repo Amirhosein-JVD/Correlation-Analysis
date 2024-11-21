@@ -12,7 +12,7 @@ def main():
     preparing_folders()
     
     # Reading data
-    mainData = pd.read_csv("../Data/KIRC_tumor_diff_expression.csv")
+    mainData = pd.read_csv("../Data/KIRC.csv")
     
     # Getting the threshold as input(We select 0.65)
 

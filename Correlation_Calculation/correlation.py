@@ -16,9 +16,9 @@ def main():
     data = pd.read_csv("../Data/KIRC.csv")
     data = data.transpose().iloc[1:, :]
     preparing_correlation_folders()
-    calculate_dcor_correlation_matrix(data)
-    calculate_kendall_correlation_matrix(data)
-    calculate_spearman_correlation_matrix(data)
+    # calculate_dcor_correlation_matrix(data)
+    # calculate_kendall_correlation_matrix(data)
+    # calculate_spearman_correlation_matrix(data)
     calculate_pearson_correlation_matrix(data)
 
 def preparing_correlation_folders():
@@ -40,17 +40,16 @@ def calculate_dcor_correlation_matrix(data:pd.DataFrame):
     # number of columns
     number_of_columns = data.shape[1]
     
-    # Creating a two-dimensional array to store the correlation results
-    temp_dcor = [[0.0] * number_of_columns for _ in range(number_of_columns)]
+    # Creating a two-dimensional ndarray to save the correlation results
+    temp_dcor = np.zeros((number_of_columns, number_of_columns))
 
     # We calculate the pairwise correlation of the columns and save it in a CSV file.
     # To avoid redundant computations, the matrix is calculated in a lower triangular form.
     for i in range(number_of_columns):
         for j in range(i, number_of_columns):
-            distance = distance_correlation(np.array(data.iloc[:, i]).astype(np.float64),
+            temp_dcor[i][j] = distance_correlation(np.array(data.iloc[:, i]).astype(np.float64),
                                             np.array(data.iloc[:, j]).astype(np.float64))
-            temp_dcor[i][j] = distance
-        
+            
         # After calculating each row of the matrix, we print its completion status.
         print("done" + str(i))
 
