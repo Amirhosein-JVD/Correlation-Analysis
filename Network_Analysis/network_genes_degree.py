@@ -12,9 +12,10 @@ def main():
     preparing_folders()
     
     # Reading data
-    mainData = pd.read_csv("../Data/KIRC.csv")
+    mainData = pd.read_csv("../Data/KIRC_tumor_diff_expression.csv")
     
-    # Getting the threshold as input.
+    # Getting the threshold as input(We select 0.65)
+
     threshold = ask_threshold()
     calculate_degree_of_genes_and_network_matrix(mainData, threshold)
     

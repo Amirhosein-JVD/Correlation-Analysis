@@ -1,0 +1,147 @@
+﻿term_id,Name,hallmark
+GO:0009967,Positive regulation of signal transduction,sustaning proliferative signal
+GO:0030307,Positive regulation of cell growth,sustaning proliferative signal
+GO:0008284,Positive regulation of cell proliferation,sustaning proliferative signal
+GO:0045787,Positivie regulation of cell cycle,sustaning proliferative signal
+GO:0007165,Signal transduction,sustaning proliferative signal
+GO:0000075,Cell Cycle Checkpoint,sustaning proliferative signal
+GO:1901976,regulation of cell cycle checkpoint,sustaning proliferative signal
+GO:1901987,regulation of cell cycle phase transition,sustaning proliferative signal
+GO:0045786,negative regulation of cell cycle,sustaning proliferative signal
+GO:0050673,epithelial cell proliferation,sustaning proliferative signal
+GO:0050678,regulation of epithelial cell proliferation,sustaning proliferative signal
+GO:0043616,keratinocyte proliferation,sustaning proliferative signal
+GO:0010837,regulation of keratinocyte proliferation,sustaning proliferative signal
+GO:0072089,stem cell proliferation,sustaning proliferative signal
+GO:0008283,Cell Proliferation,sustaning proliferative signal
+GO:0042127,Regulation of Cell Proliferation,sustaning proliferative signal
+GO:0008285,Negative Regulation of Cell Proliferation,sustaning proliferative signal
+GO:0007049,Cell Cycle,sustaning proliferative signal
+GO:0051726,Regulation of Cell Cycle,sustaning proliferative signal
+GO:0051301,Cell Division,sustaning proliferative signal
+GO:0051302,Regulation of Cell Division,sustaning proliferative signal
+GO:0051781,Positive Regulation of Cell Division,sustaning proliferative signal
+GO:0051782,Negative Regulation of Cell Division,sustaning proliferative signal
+GO:0016049, cell growth ,sustaning proliferative signal
+GO:0009968,Negative regulation of signal transduction,Evading growth suppressor
+GO:0030308,Negative regulation of cell growth,Evading growth suppressor
+GO:0008285,Negative regulation of cell proliferation,Evading growth suppressor
+GO:0045786,Negative regulation of cell cycle,Evading growth suppressor
+GO:0007165,Signal transduction,Evading growth suppressor
+GO:0051782, negative regulation of cell division,Evading growth suppressor
+GO:0043069,Negative regualtion of programmed cell death,Resist cell Death
+GO:0043066,Negative regulation of apoptosis,Resist cell Death
+GO:0045768,Positive regulation of anti-apoptosis,Resist cell Death
+GO:0070265,necrotic cell death,Resist cell Death
+GO:0010939,regulation of necrotic cell death,Resist cell Death
+GO:0097300,programmed necrotic cell death,Resist cell Death
+GO:2001233,regulation of apoptotic signaling pathway,Resist cell Death
+GO:0012501, programmed cell death ,Resist cell Death
+GO:0043067, regulation of programmed cell death,Resist cell Death
+GO:0043068,Positive Regulation of Programmed Cell Death,Resist cell Death
+GO:0001302,Replicative cell aging,Enabling Replicative immortalit
+GO:0032206,Positive regualtion of telomere maintenance,Enabling Replicative immortalit
+GO:0090398,Cellular senescence,Enabling Replicative immortalit
+GO:0000723,telomere maintenance,Enabling Replicative immortalit
+GO:0007004,telomere maintenance via telomerase,Enabling Replicative immortalit
+GO:0032204,regulation of telomere maintenance,Enabling Replicative immortalit
+GO:0051972,regulation of telomere activity,Enabling Replicative immortalit
+GO:2000772,Regulation of cellular senescence,Enabling Replicative immortalit
+GO:0007569,Cell Aging,Enabling Replicative immortalit
+GO:0090342,Regulation of cell aging,Enabling Replicative immortalit
+GO:0032200,telomere Organization,Enabling Replicative immortalit
+GO:1900062, regulation of replicative cell aging ,Enabling Replicative immortalit
+GO:0045766,Positive regulation of angiogenesis,Inducing Angiogenesis
+GO:0045765,Regulation of angiogenesis,Inducing Angiogenesis
+GO:0030949,Positive regulation of vascular endothelial growth factor receptor signaling pathway,Inducing Angiogenesis
+GO:0001570,Vasculogenesis,Inducing Angiogenesis
+GO:0001525,angiogenesis ,Inducing Angiogenesis
+GO:0045446,Endothelial Cell Differentiation,Inducing Angiogenesis
+GO:0045601,Regulation of Endothelial Cell Differentiation,Inducing Angiogenesis
+GO:0045603,Positive Regulation of Endothelial Cell Differentiation,Inducing Angiogenesis
+GO:0045602,Negative Regulation of Endothelial Cell Differentiation,Inducing Angiogenesis
+GO:0043542,Endothelial Cell Migration,Inducing Angiogenesis
+GO:0010594,Regulation of Endothelial Cell Migration,Inducing Angiogenesis
+GO:0010595,Positive Regulation of Endothelial Cell Migration,Inducing Angiogenesis
+GO:0010596,Negative Regulation of Endothelial Cell Migration,Inducing Angiogenesis
+GO:0001944,Vasculature Development,Inducing Angiogenesis
+GO:1901342,Regulation of Vasculature Development,Inducing Angiogenesis
+GO:1904018,Positive Regulation of Vasculature Development,Inducing Angiogenesis
+GO:1901343,Negative Regulation of Vasculature Development,Inducing Angiogenesis
+GO:0001935,Endothelial Cell Proliferation,Inducing Angiogenesis
+GO:0001936,Regulation of Endothelial Cell Proliferation,Inducing Angiogenesis
+GO:0001938,Positive Regulation of Endothelial Cell Proliferation,Inducing Angiogenesis
+GO:0001937,Negative Regulation of Endothelial Cell Proliferation,Inducing Angiogenesis
+GO:2001212, regulation of vasculogenesis ,Inducing Angiogenesis
+GO:0008015, blood circulation,Inducing Angiogenesis
+GO:0042060,Wound healing,Activating invation and Metastasis
+GO:0007162,Negative regulation of cell adhesion,Activating invation and Metastasis
+GO:0033631,Cell-cell adhesion mediated by integrin,Activating invation and Metastasis
+GO:0044331,Cell-cell adhesion mediated by cadherin,Activating invation and Metastasis
+GO:0001837,Epithelial to mesenchymal transition,Activating invation and Metastasis
+GO:0016477,Cell migration,Activating invation and Metastasis
+GO:0048870,Cell motility,Activating invation and Metastasis
+GO:0007155,Cell adhesion,Activating invation and Metastasis
+GO:0090130,tissue migration,Activating invation and Metastasis
+GO:0090132,epithelium migration,Activating invation and Metastasis
+GO:0010631,epithelial cell migration,Activating invation and Metastasis
+GO:0010632,regulation of epithelial cell migration,Activating invation and Metastasis
+GO:0051546,keratinocyte migration,Activating invation and Metastasis
+GO:0001667,ameboidal-type cell migration,Activating invation and Metastasis
+GO:0034330,Cell junction Organization,Activating invation and Metastasis
+GO:0030030,Cell projection Organization,Activating invation and Metastasis
+GO:0031344,Regulation of Cell projection Organization,Activating invation and Metastasis
+GO:0031346,Positive Regulation of Cell projection Organization,Activating invation and Metastasis
+GO:0031345,Negative Regulation of Cell projection Organization,Activating invation and Metastasis
+GO:0010717,Regulation of EMT,Activating invation and Metastasis
+GO:0010718,Positive Regulation of EMT,Activating invation and Metastasis
+GO:0010719,Negative Regulation of EMT,Activating invation and Metastasis
+GO:0030155,Regulation of Cell Adhesion,Activating invation and Metastasis
+GO:0045785,Positive Regulation of Cell Adhesion,Activating invation and Metastasis
+GO:0030334,Regulation of Cell Migration,Activating invation and Metastasis
+GO:0030335,Positive Regulation of Cell Migration,Activating invation and Metastasis
+GO:0030336,Negative Regulation of Cell Migration,Activating invation and Metastasis
+GO:0030036,actin cytoskeleton organization,Activating invation and Metastasis
+GO:0042330,taxis,Activating invation and Metastasis
+GO:0007163,establishment or maintenance of,Activating invation and Metastasis
+GO:0051276,Chromosome organization,Genome instability and Mutation
+GO:0045005,Maintenance of fidelity involved in DNA-dependent DNA replication,Genome instability and Mutation
+GO:0006281,DNA repair,Genome instability and Mutation
+GO:0006282,regulation of DNA repair,Genome instability and Mutation
+GO:0006298,mismatch repair,Genome instability and Mutation
+GO:0006302,double-strand break repair,Genome instability and Mutation
+GO:0006289,nucleotide-excision repair,Genome instability and Mutation
+GO:0036297,interstrand cross-link repair,Genome instability and Mutation
+GO:0031570,DNA integrity Checkpoint,Genome instability and Mutation
+GO:0045739,Positive Regulation of DNA repair,Genome instability and Mutation
+GO:0045738,Negative Regulation of DNA repair,Genome instability and Mutation
+GO:0002419,T-cell mediated cytotoxicity directed against tumor cell target,Tumor promoting Inflammation
+GO:0002420,Natural killer cell mediated cytotoxicity directed against tumor cell target,Tumor promoting Inflammation
+GO:0002857,Positive regualtion of natural killer cell mediated immune response to tumor cell,Tumor promoting Inflammation
+GO:0002842,Positive regualtion of T-cell mediated immune response to tumor cell,Tumor promoting Inflammation
+GO:0002367,Cytokine production involved in immune response,Tumor promoting Inflammation
+GO:0050776,Regulation of immune response,Tumor promoting Inflammation
+GO:0002526,acute inflammatory response,Tumor promoting Inflammation
+GO:0002544,chronic inflammatory response,Tumor promoting Inflammation
+GO:0050727,regulation of inflammatory response,Tumor promoting Inflammation
+GO:0050900,Leukocyte Migration,Tumor promoting Inflammation
+GO:0002685,Regulation of Leukocyte Migration ,Tumor promoting Inflammation
+GO:0006954, inﬂammatory response ,Tumor promoting Inflammation
+GO:0002718, regulation of cytokine production involved in immune response ,Tumor promoting Inflammation
+GO:0042060, wound healing ,Tumor promoting Inflammation
+GO:0061041, regulation of wound healing ,Tumor promoting Inflammation
+GO:0042533, tumor necrosis factor biosynthetic process,Tumor promoting Inflammation
+GO:0006096,Glycolysis,Deregulating cellular Energetics
+GO:0071456,Cellular response to hypoxia,Deregulating cellular Energetics
+GO:0006110,regulation of glycolytic process,Deregulating cellular Energetics
+GO:0006006, glucose metabolic process ,Deregulating cellular Energetics
+GO:0046323, glucose import ,Deregulating cellular Energetics
+GO:0002837,Regulation of immune response to tumor cell,Avoiding Immune Destruction
+GO:0002418,Immune response to tumor cells,Avoiding Immune Destruction
+GO:0002367,Cytokine production involved in immune response,Avoiding Immune Destruction
+GO:0050776,Regulation of immune response,Avoiding Immune Destruction
+GO:0006955,Immune Response,Avoiding Immune Destruction
+GO:0050778,Positive Regulation of Immune Response,Avoiding Immune Destruction
+GO:0050777,Negative Regulation of Immune Response,Avoiding Immune Destruction
+GO:0020012, evasion or tolerance of host immune response,Avoiding Immune Destruction
+GO:0006897, endocytosis,Avoiding Immune Destruction
