@@ -9,6 +9,9 @@ METHODS= ["Dcor", "Pearson", "Spearman", "Kendall"]
 
 def main():
 
+    # Preparing folders
+    preparing_folders()
+    
     # Executing the functions defined below for each pair of correlation methods.
     for h in range(len(METHODS)):
         for j in range(h + 1, len(METHODS)):
@@ -35,6 +38,7 @@ def rater(arr):
  
     
 def rating(method1:str, method2:str, percent:float):
+
     """This function takes two correlation methods and outputs the comparison results of these methods on the genes in a CSV file.
 
     Args:
@@ -126,6 +130,15 @@ def rating(method1:str, method2:str, percent:float):
 
     # storing CSV file
     result.to_csv(f"{method1}-{method2}/{method1[0]}-{method2[0]}.csv", index=False)
-
+    
+def preparing_folders():
+    """Preparing folders for saving results
+    """
+    for h in range(len(METHODS)):
+        for j in range(h + 1, len(METHODS)):
+            folder = f"{METHODS[h]}-{METHODS[j]}"
+            if not os.path.isdir(folder):
+                os.makedirs(folder)
+                
 if __name__ == "__main__":
     main()
