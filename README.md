@@ -1,4 +1,4 @@
-# ## **Effects of Spearman’s and Pearson’s Correlations on Construction of Cancer Regulatory Networks and Biomarker Selection**
+# **Effects of Spearman’s and Pearson’s Correlations on Construction of Cancer Regulatory Networks and Biomarker Selection**
 
 In the paper, Cancer regulatory networks are constructed based on four correlation matrices and finally discovered that **Spearman correlation** is the best choice for construction of cancer regulatory networks based on expression data. We notice the **Spearman superiority** from different aspects.
 
@@ -42,4 +42,4 @@ In the paper, Cancer regulatory networks are constructed based on four correlati
 
 ---
 
-## 🖼️ **To plot the figures in the paper, use functions in “Results & plots”**
+## 🖼️ **To plot the figures in the paper, use functions in `Results & plot`**
