@@ -15,10 +15,12 @@ def main():
   
     data = pd.read_csv("../Data/KIRC.csv")
     data = data.transpose().iloc[1:, :]
+    
     preparing_correlation_folders()
-    # calculate_dcor_correlation_matrix(data)
-    # calculate_kendall_correlation_matrix(data)
-    # calculate_spearman_correlation_matrix(data)
+
+    calculate_dcor_correlation_matrix(data)
+    calculate_kendall_correlation_matrix(data)
+    calculate_spearman_correlation_matrix(data)
     calculate_pearson_correlation_matrix(data)
 
 def preparing_correlation_folders():
