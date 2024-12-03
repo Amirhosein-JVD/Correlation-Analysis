@@ -4,7 +4,7 @@ In the paper, Cancer regulatory networks are constructed based on four correlati
 
 ---
 
-## 📂 **To download the initial data (expression data), open the “Data” folder:**
+## 📂 **To download the initial data (expression data), open the `Data` folder:**
 
 1. 📥 **Download the Data**
 2. 🧬 **Find the genes with significant differential expression**
@@ -14,14 +14,14 @@ In the paper, Cancer regulatory networks are constructed based on four correlati
 
 ## 📊 **Then calculate the correlation between initial genes of network by:**
 
-4. **“Correlation calculation”**
+4. **`Correlation_Calculation`**
 
 ---
 
-## 🕸️ **Network construction implemented in “Network analysis”:**
+## 🕸️ **Network construction implemented in `Network_Analysis`:**
 
-5. 🔗 **Define network edges and node degree** by **“Network_gene_degree”**  
-6. 📈 **Sort nodes by their degree** using **“Sorting_degree”**  
+5. 🔗 **Define network edges and node degree** by **`network_genes_degree`**  
+6. 📈 **Sort nodes by their degree** using **`sorting_degrees`**  
 7. 🗂️ **Compare Gene Rankings Using Correlation Methods**:  
    In the **`rating.py`** file, the function **`rating`** generates output files in the form of **CSV files**,  
    where the **ranking of genes** is compared across two different correlation methods.
@@ -30,16 +30,16 @@ In the paper, Cancer regulatory networks are constructed based on four correlati
 
 ## 🩺 **To find survival related genes:**
 
-8. ⚕️ **“Survival analysis”**  
-9. 🔗 Find the intersect between hub genes and survival related genes by **“find_intersect”**
+8. ⚕️ **`Survival_Analysis`**  
+9. 🔗 Find the intersect between hub genes and survival related genes by **`find_intersect`**
 
 ---
 
 ## 🧠 **To find enriched terms for hub genes of each network:**
 
 1. 🌐 Import the hub names to **[g:Profiler](https://biit.cs.ut.ee/gprofiler/)**  
-2. 🔬 Find the cancer-related ones using **“Enrichment analysis”**
+2. 🔬 Find the cancer-related ones using **`Enrichment_Analysis`**
 
 ---
 
-## 🖼️ **To plot the figures in the paper, use functions in `Results & plot`**
+## 🖼️ **To plot the figures in the paper, use functions in `Results & Plots`**
