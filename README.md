@@ -14,14 +14,14 @@ In the paper, Cancer regulatory networks are constructed based on four correlati
 
 ## 📊 **Then calculate the correlation between initial genes of network by:**
 
-4. **`Correlation_Calculation`**
+4. **`Correlation_Calculation/correlation.py`**
 
 ---
 
 ## 🕸️ **Network construction implemented in `Network_Analysis`:**
 
-5. 🔗 **Define network edges and node degree** by **`network_genes_degree`**  
-6. 📈 **Sort nodes by their degree** using **`sorting_degrees`**  
+5. 🔗 **Define network edges and node degree** by **`network_genes_degree.py`**  
+6. 📈 **Sort nodes by their degree** using **`sorting_degrees.py`**  
 7. 🗂️ **Compare Gene Rankings Using Correlation Methods**:  
    In the **`rating.py`** file, the function **`rating`** generates output files in the form of **CSV files**,  
    where the **ranking of genes** is compared across two different correlation methods.
@@ -31,7 +31,7 @@ In the paper, Cancer regulatory networks are constructed based on four correlati
 ## 🩺 **To find survival related genes:**
 
 8. ⚕️ **`Survival_Analysis`**  
-9. 🔗 Find the intersect between hub genes and survival related genes by **`find_intersect`**
+9. 🔗 Find the intersect between hub genes and survival related genes by **`find_intersect.py`**
 
 ---
 
